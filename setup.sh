@@ -2,10 +2,10 @@
 source /home/vadzim/miniconda3/etc/profile.d/conda.sh
 conda create -n uni_rl -y
 conda activate uni_rl
-conda install -c conda-forge notebook -y
+conda install notebook==6.1.6 -y
 # python 3.6.3
-conda install python==3.5.4 -y
-pip install urllib3
+# conda install python==3.5.4 -y
+# pip install urllib3
 git clone https://github.com/openai/universe.git
 cd universe
 pip install -e .
