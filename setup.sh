@@ -7,7 +7,7 @@ git clone https://github.com/openai/universe.git
 cd universe
 pip install -e .
 pip install gym==0.9.5
-cd ../gym-examples/
-# conda install ipykernel
-# ipython kernel install --name my_env --user
+cd ../../gym-examples/
+conda install ipykernel -y
+ipython kernel install --name my_env --user
 jupyter notebook
