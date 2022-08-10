@@ -2,7 +2,7 @@
 source /home/vadzim/miniconda3/etc/profile.d/conda.sh
 conda create -n uni_rl -y
 conda activate uni_rl
-pip install git+https://github.com/jupyter/notebook.git@4.3.1
+conda install notebook==5.0.0 -y
 conda install python==3.6.13 -y
 git clone https://github.com/openai/universe.git
 cd universe
