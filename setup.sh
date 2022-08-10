@@ -3,7 +3,9 @@ source /home/vadzim/miniconda3/etc/profile.d/conda.sh
 conda create -n uni_rl -y
 conda activate uni_rl
 conda install notebook==6.1.6 -y
-conda install python==3.8.13 -y
+conda install python==3.7.13 -y
+# pip install numpy
+# conda install go -y
 git clone https://github.com/openai/universe.git
 cd universe
 pip install -e .
